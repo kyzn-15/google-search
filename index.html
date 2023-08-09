@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Google</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* background-color: yellowgreen; */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #button1 {
+            padding: 3px;
+        }
+        
+        button{
+            
+            /* float: right; */
+            background-color: #1f7bf4;
+            color: white;
+            display: inline; 
+            padding: 3px;
+            width: 110px;
+            margin: 5px;
+            /* margin: 5px auto;  */
+            
+        }
+
+        button:hover {
+            background-color: white;
+            color: #1f7bf4;
+        }
+        
+
+        section.content {
+            margin-top: 2px;
+            margin-bottom: 100px;
+            
+        }
+
+        h1 {
+            text-align: center;
+            /* display: block; */
+            font-size: 50pt;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        form {
+            /* background-color: aliceblue; */
+            width: 70%;
+            min-width: 500px;
+            height: 50px;
+            line-height: 50px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        form span.search-icon {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            /* background-color: yellow; */
+        }
+
+        form input.search-entry {
+            width: 90%;
+            height: 30px;
+            border: none;
+            border-radius: 30px;
+            background-color: white;
+            padding: 0 10px ;
+        }
+
+        form input.search-entry:focus {
+            outline: none;
+        }
+
+        form > input.search-btn {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            border: none;
+            background-color: rgba(118, 206, 243, 0.574);
+        }
+
+        div.entry-group {
+            display: inline-block;
+            width: calc(40px + 80%);
+            height: 38px;
+            background-color: white;
+            border: 1px gray solid;
+            border-radius: 19px;
+            line-height: 38px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            max-width: 600px;
+            padding: 5px;
+            text-align: left;
+            font-size: 20px;
+            margin: 0 auto;
+        }
+
+       th {
+        text-align: center;
+       }
+
+       footer{
+        background-color: rgba(181, 181, 181, 0.607);
+        padding: 20px;
+        margin-top: 20px; 
+        text-align: center;
+        font-size: 20px;
+        color: white;
+       }
+
+    </style>
+</head>
+<body>
+    <header></header>
+    
+    
+    
+    
+    <section class="content">
+        <h1>
+            <span style="color:#1f7bf4">G</span><span style="color: red;">o</span><span  style="color: orange;">o</span><span style="color: rgb(22, 156, 22);">g</span><span style="color: rgb(245, 245, 12);">l</span><span style="color: rgb(195, 24, 242);">e</span>
+        </h1>
+        <form action="https://www.google.com/search">
+            <div class="entry-group">
+                <span class="search-icon">🔎</span>
+                <input class="search-entry" type="text" name="q" id="" placeholder="Find your idea !">
+            </div>
+            <input class="search-btn" type="submit" value="🎙️">
+            
+            <div style="width: 100%;" class="buttons">
+                <button type="button">Sign in</button> 
+                <button type="button">Create Account</button>
+                
+            </div>
+            
+        </form>
+    </section>
+
+    <section class="article">
+       <table>
+            
+            <thead>
+                <tr>
+                    <th colspan="2">Recent Articles</th>
+                </tr>
+            </thead>
+        
+            <tbody>
+                <tr>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, animi sit dolore veritatis consequuntur accusantium, expedita tenetur perspiciatis voluptatibus magnam deleniti neque aliquid reiciendis perferendis quisquam iure vel quidem. Debitis.</td>
+
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, animi sit dolore veritatis consequuntur accusantium, expedita tenetur perspiciatis voluptatibus magnam deleniti neque aliquid reiciendis perferendis quisquam iure vel quidem. Debitis.</td>
+                </tr>
+
+                <tr>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum autem maxime odit quae quam iure maiores officia rerum facilis assumenda earum tempora nesciunt, magni deleniti ipsam ad minima! Iste ab placeat vitae aspernatur provident optio. Atque alias sunt placeat exercitationem modi nam! Natus, accusantium explicabo? Placeat odit perspiciatis rerum quisquam?.</td>
+
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum autem maxime odit quae quam iure maiores officia rerum facilis assumenda earum tempora nesciunt, magni deleniti ipsam ad minima! Iste ab placeat vitae aspernatur provident optio. Atque alias sunt placeat exercitationem modi nam! Natus, accusantium explicabo? Placeat odit perspiciatis rerum quisquam?.</td>
+                </tr>
+            </tbody>
+       </table>
+    </section>
+    
+    <footer>
+        <p>Kevin Wilbert Johan 10.2</p>
+    </footer>
+</body>
+</html>
